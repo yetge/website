@@ -1,0 +1,54 @@
+<svg width="1500" height="1500" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .main {
+            fill: rgb(255, 255, 255);
+        }
+    </style>
+
+    <rect width="1500" height="1500" fill="rgb(0, 0, 0)" />
+
+    <!-- Y -->
+    <polygon 
+        points="306.25,350 356.25,350 581.25,750 531.25,750" 
+        class="main" />
+
+    <polygon 
+        points="806.25,350 756.25,350 531.25,750 581.25,750" 
+        class="main" />
+
+    <polygon 
+        points="531.25,730 581.25,730 581.25,1150 531.25,1150" 
+        class="main" />
+
+
+    <!-- E -->
+    <polygon 
+        points="631.25,750 681.25,750 681.25,1150 631.25,1150" 
+        class="main" />
+
+    <polygon 
+        points="631.25,750 631.25,800 981.25,800 981.25,750" 
+        class="main" />
+
+    <polygon 
+        points="631.25,900 631.25,950 981.25,950 981.25,900" 
+        class="main" />
+
+    <polygon 
+        points="631.25,1100 631.25,1150 981.25,1150 981.25,1100" 
+        class="main" />
+
+    <polygon 
+        points="931.25,750 981.25,750 981.25,950 931.25,950" 
+        class="main" />
+
+    
+    <!-- T -->
+    <polygon 
+        points="1031.25,350 1081.25,350 1081.25,1150 1031.25,1150" 
+        class="main" />
+
+    <polygon 
+        points="956.25,650 956.25,700 1156.25,700 1156.25,650" 
+        class="main" />
+</svg>
