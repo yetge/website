@@ -1,0 +1,47 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .main {
+            fill: rgb(255, 255, 255);
+        }
+    </style>
+
+    <polygon 
+        points="56.25,100 106.25,100 331.25,500 281.25,500" 
+        class="main" />
+
+    <polygon 
+        points="556.25,100 506.25,100 281.25,500 331.25,500" 
+        class="main" />
+
+    <polygon 
+        points="281.25,480 331.25,480 331.25,900 281.25,900" 
+        class="main" />
+
+    <polygon 
+        points="381.25,500 431.25,500 431.25,900 381.25,900" 
+        class="main" />
+
+    <polygon 
+        points="381.25,500 381.25,550 731.25,550 731.25,500" 
+        class="main" />
+
+    <polygon 
+        points="381.25,650 381.25,700 731.25,700 731.25,650" 
+        class="main" />
+
+    <polygon 
+        points="381.25,850 381.25,900 731.25,900 731.25,850" 
+        class="main" />
+
+    <polygon 
+        points="681.25,500 731.25,500 731.25,700 681.25,700" 
+        class="main" />
+
+    <polygon 
+        points="781.25,100 831.25,100 831.25,900 781.25,900" 
+        class="main" />
+
+    <polygon 
+        points="706.25,400 706.25,450 906.25,450 906.25,400" 
+        class="main" />
+</svg>
