@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coffer • კოფერი</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+      :root {
+        --background: #958449;
+        --card-background: #000000;
+        --main-light: #e2d49f;
+        --main-normal: #e0c870;
+        --main-dark: #d4bd68;
+    }
+
+      body {
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+
+        background: var(--background);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+      a {
+        text-decoration: none;
+}
+
+      .card {
+        width: 60vh;
+        height: 90vh;
+        background: var(--card-background);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2vh;
+}
+
+      .logo {
+        width: 15vh;
+        height: 15vh;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 7.5vh;
+}
+
+      .first {
+        height: 25%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+      p {
+        margin: 0;
+}
+
+      .description {
+        font-size: 2.2vh;
+        margin-top: 1vh;
+}
+
+      .second {
+        height: 5%;
+        width: 90%;
+        display: flex;
+        gap: 3vh;
+        align-items: center;
+        justify-content: center;
+}
+
+      .fourth {
+        height: 50%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+}
+
+      .button-below {
+        height: 49%;
+        width: 100%;
+        border: 0;
+        border-radius: 2vh;
+        color: black;
+        font-size: 2vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-normal);
+        transition: background-color 0.1s;
+}
+
+      .button-below:hover {
+        background-color: var(--main-dark);
+}
+
+    .icon-btn {
+        width: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+      .svg-icon {
+        width: 3vh;
+        height: 3vh;
+        margin-bottom: 2vh;
+        fill: var(--main-normal);
+        transition: width 0.1s, height 0.1s, fill 0.1s;
+    }
+
+      .svg-icon:hover {
+        width: 3.5vh;
+        height: 3.5vh;
+        fill: var(--main-light);
+    }
+
+      .third {
+        height: 5%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+      .number {
+        font-size: 2.5vh;
+        margin-bottom: 2vh;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="first">
+        <img class="logo" src="logo.jpg" alt="Logo" />
+        <p class="description">Coffer • კოფერი</p>
+      </div>
+      <div class="second">
+
+        <a href="https://www.facebook.com/profile.php?id=61577480504342" target="_blank" class="icon-btn">
+        <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M16,2c-7.732,0-14,6.268-14,14,0,6.566,4.52,12.075,10.618,13.588v-9.31h-2.887v-4.278h2.887v-1.843c0-4.765,2.156-6.974,6.835-6.974,.887,0,2.417,.174,3.043,.348v3.878c-.33-.035-.904-.052-1.617-.052-2.296,0-3.183,.87-3.183,3.13v1.513h4.573l-.786,4.278h-3.787v9.619c6.932-.837,12.304-6.74,12.304-13.897,0-7.732-6.268-14-14-14Z"></path></svg>
+        </a>
+        
+        <a href="mailto:ramazashvilirusudan@gmail.com" target="_blank" class="icon-btn">
+        <svg class="svg-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/" viewBox="0 0 128 128"><path d="M123.25 24.192c0-.018 0-.034-.005-.052s-.007-.063-.009-.094a1.734 1.734 0 0 0-.083-.408c-.006-.018 0-.037-.011-.055s-.01-.015-.013-.023a1.734 1.734 0 0 0-.227-.407c-.021-.028-.043-.053-.066-.08a1.755 1.755 0 0 0-.31-.294c-.012-.009-.022-.02-.034-.028a1.744 1.744 0 0 0-.414-.2c-.034-.012-.068-.022-.1-.032a1.733 1.733 0 0 0-.474-.073H6.5a1.733 1.733 0 0 0-.474.073c-.035.01-.068.02-.1.032a1.744 1.744 0 0 0-.414.2c-.012.008-.022.019-.034.028a1.755 1.755 0 0 0-.31.294c-.022.027-.045.052-.066.08a1.734 1.734 0 0 0-.227.407c0 .008-.01.015-.013.023s-.005.037-.011.055a1.734 1.734 0 0 0-.083.408c0 .032-.009.063-.009.094s-.005.034-.005.052v79.615c0 .023.006.045.007.068a1.737 1.737 0 0 0 .019.188c.008.051.015.1.027.152a1.74 1.74 0 0 0 .056.179c.017.047.033.094.054.139a1.729 1.729 0 0 0 .093.172c.024.04.048.081.075.119a1.743 1.743 0 0 0 .125.152c.033.036.066.072.1.106.021.019.037.042.059.061s.036.017.052.03a1.736 1.736 0 0 0 .452.263c.035.014.071.022.107.033a1.732 1.732 0 0 0 .488.085c.012 0 .023.006.035.006H121.501c.012 0 .023-.006.034-.006a1.732 1.732 0 0 0 .489-.085c.035-.011.07-.019.1-.033a1.736 1.736 0 0 0 .453-.263c.016-.013.036-.017.052-.03s.038-.042.059-.061c.036-.034.069-.069.1-.106a1.743 1.743 0 0 0 .125-.152c.027-.038.051-.078.075-.119a1.729 1.729 0 0 0 .093-.172c.021-.045.037-.092.054-.139a1.74 1.74 0 0 0 .056-.179c.012-.05.019-.1.027-.152a1.737 1.737 0 0 0 .019-.188c0-.023.007-.045.007-.068zM45.8 60.316l17.058 14.677a1.751 1.751 0 0 0 2.283 0L82.2 60.316l35.512 41.741H10.289zM8.25 99.052V28.007l34.9 30.026zm76.6-41.019 34.9-30.026v71.045zm31.931-32.091L81.276 56.493c-.006.005-.014.008-.02.014l-.019.02L64 71.358 46.763 56.527l-.019-.02-.02-.014-35.507-30.551z"/></svg>
+        </a>
+        </div>
+            <div class="third">
+                <p class="number">+995 579 32 08 08</p>
+            </div>
+            
+            <div class="fourth">
+            <a href="https://www.facebook.com/share/p/1BkGQwc8uz/" target="_blank" class="button-below">Menu</a>
+        
+            <a href="https://maps.app.goo.gl/NQzn4ZPTJ2jYQoz67" target="_blank" class="button-below">📍 33/8 Dzmebi Zubalashvilebi St</a>
+        
+                </div>
+            </div>
+        </body>
+    </html>
+    
