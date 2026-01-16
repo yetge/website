@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Orangery Cafe & More</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+      :root {
+        --background: #210000;
+        --card-background: #8c0202;
+        --main-light: #ffee00;
+        --main-normal: #decf00;
+        --main-dark: #bdb100;
+    }
+
+      body {
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+
+        background: var(--background);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+      a {
+        text-decoration: none;
+}
+
+      .card {
+        width: 60vh;
+        height: 90vh;
+        background: var(--card-background);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2vh;
+}
+
+      .logo {
+        width: 15vh;
+        height: 15vh;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 7.5vh;
+}
+
+      .first {
+        height: 25%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+      p {
+        margin: 0;
+}
+
+      .description {
+        font-size: 2.2vh;
+        margin-top: 1vh;
+}
+
+      .second {
+        height: 5%;
+        width: 90%;
+        display: flex;
+        gap: 3vh;
+        align-items: center;
+        justify-content: center;
+}
+
+      .fourth {
+        height: 50%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+}
+
+      .button-below {
+        height: 49%;
+        width: 100%;
+        border: 0;
+        border-radius: 2vh;
+        color: black;
+        font-size: 2vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-normal);
+        transition: background-color 0.1s;
+}
+
+      .button-below:hover {
+        background-color: var(--main-dark);
+}
+
+    .icon-btn {
+        width: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+      .svg-icon {
+        width: 3vh;
+        height: 3vh;
+        margin-bottom: 2vh;
+        fill: var(--main-normal);
+        transition: width 0.1s, height 0.1s, fill 0.1s;
+    }
+
+      .svg-icon:hover {
+        width: 3.5vh;
+        height: 3.5vh;
+        fill: var(--main-light);
+    }
+
+      .third {
+        height: 5%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+      .number {
+        font-size: 2.5vh;
+        margin-bottom: 2vh;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="first">
+        <img class="logo" src="logo.jpg" alt="Logo" />
+        <p class="description">Futuristic cafe in Vake Park</p>
+      </div>
+      <div class="second">
+
+        <a href="https://www.facebook.com/OrangeryCafeAndMore/" target="_blank" class="icon-btn">
+        <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M16,2c-7.732,0-14,6.268-14,14,0,6.566,4.52,12.075,10.618,13.588v-9.31h-2.887v-4.278h2.887v-1.843c0-4.765,2.156-6.974,6.835-6.974,.887,0,2.417,.174,3.043,.348v3.878c-.33-.035-.904-.052-1.617-.052-2.296,0-3.183,.87-3.183,3.13v1.513h4.573l-.786,4.278h-3.787v9.619c6.932-.837,12.304-6.74,12.304-13.897,0-7.732-6.268-14-14-14Z"></path></svg>
+        </a>
+        </div>
+            <div class="third">
+                <p class="number">+995 577 72 49 69</p>
+            </div>
+            
+            <div class="fourth">
+            <a href="https://www.template.net/edit-online/278324/printable-menu" target="_blank" class="button-below">Menu</a>
+        
+            <a href="https://maps.app.goo.gl/p9Ue4Mrhr1ndn3K9A" target="_blank" class="button-below">📍 M. Tamarashvili 4b</a>
+        
+                </div>
+            </div>
+        </body>
+    </html>
+    
